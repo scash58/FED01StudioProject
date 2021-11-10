@@ -1,0 +1,41 @@
+﻿/*#region Index_Styling */
+
+/*
+    This is an external stylesheet.
+    Designed for mazimum reuse throught the site, linked in the <head> of the HTML pages.
+*/
+body {
+    background-color: black;
+}
+
+header {
+    background-color: lightgray;
+    font-weight: bold;
+    color: darkblue
+}
+
+main {
+    background-color: grey;
+}
+
+h1 {
+    color: darkblue;
+    font-size: 26px;
+}
+
+h2 {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+header h1 {
+    color: darkblue;
+}
+
+footer {
+    font-style: italic;
+    font-size: 20px;
+}
+
+/*#endregion */

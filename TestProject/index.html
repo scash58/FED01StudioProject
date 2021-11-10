@@ -6,21 +6,37 @@
     <meta name="description" content="Information about basic HTML tags" />
     <meta name="keywords" content="learning, html, website basics, FED1" />
     <meta name="author" content="Scott Cashion" />
+
+    <link href="css/custom.css" rel="stylesheet" />
+
+    <style>
+        .navListStyle {
+            font-weight: bold;
+            text-decoration: underline;
+            background-color: darkgrey;
+        }
+
+        #asideStyle {
+            background-color: lightgray;
+            color: brown;
+        }
+    </style>
+
 </head>
 <body>
     <header><h2>Logo: Company Name</h2><p>Company Tag Line</p></header>
     <nav>
         <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Team</li>
-            <li>Contact</li>
+            <li class="navListStyle">Home</li>
+            <li class="navListStyle">About</li>
+            <li class="navListStyle">Team</li>
+            <li class="navListStyle">Contact</li>
         </ul>
     </nav>
     <main>
-        <section>Primary content</section>
-        <aside>Side Nav</aside>
+        <section>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam commodo nisi a lectus facilisis egestas. Suspendisse potenti. Quisque eros nibh, vestibulum sit amet quam quis, tristique rutrum orci. Sed sed cursus arcu. Aenean dolor eros, ultrices id porta eget, suscipit vel odio. In ut ullamcorper tortor. Sed ultrices maximus pulvinar.</section>
+        <aside id="asideStyle">Morbi nisl quam, gravida nec arcu ut, auctor tempor elit. Pellentesque non ornare libero, non gravida augue. Proin quis nibh est. Cras sed gravida sem. Aenean sagittis odio a nibh porttitor, vel convallis odio lobortis. Duis malesuada rhoncus mi, eget pharetra nunc vulputate at. Cras suscipit bibendum sapien sed blandit. Duis tristique nisl eu mi consequat aliquam. Vestibulum ut vehicula velit. Nullam ex erat, congue at eros a, pharetra suscipit purus. Fusce vel hendrerit erat. Cras semper sed leo in vestibulum.</aside>
     </main>
-    <footer>&copy; 2021 Scott Cashion</footer>
+    <footer>&copy; Copyright 2021 Scott Cashion</footer>
 </body>
 </html>
