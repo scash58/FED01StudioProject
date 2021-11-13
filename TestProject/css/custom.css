@@ -5,13 +5,17 @@
     Designed for mazimum reuse throught the site, linked in the <head> of the HTML pages.
 */
 body {
-    background-color: black;
+    background-color: darkgray;
 }
 
 header {
     background-color: lightgray;
     font-weight: bold;
-    color: darkblue
+    color: black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
 }
 
 main {
@@ -19,23 +23,140 @@ main {
 }
 
 h1 {
-    color: darkblue;
+    color: black;
     font-size: 26px;
 }
 
 h2 {
-    text-decoration: underline;
     font-weight: bold;
     font-size: 20px;
 }
 
 header h1 {
-    color: darkblue;
+    color: black;
 }
 
 footer {
+    background-color: gray;
     font-style: italic;
     font-size: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    padding: 3%
+}
+
+ul.blocklist {
+    background-color: teal;
+    padding: 0;
+}
+    ul.blocklist li {
+        list-style-type: none;
+        list-style-image: none;
+    }
+    ul.blocklist a {
+        text-align: center;
+        padding: .5em;
+        display: block;
+        /*makes the entire horizontal area clickable, not just the text*/
+    }
+        ul.blocklist a:hover {
+            background-color: darkblue;
+            color: lightblue;
+        }
+a {
+    font-weight: bold;
+    text-decoration: none;
+}
+    a:hover, a:active, a:focus {
+        color: lightblue;
+        text-decoration: underline;
+        background-color: darkblue;
+    }
+
+nav a {
+    font-weight: bold;
+    color: black;
+}
+    nav a:hover, nav a:active, nav a:focus {
+        text-decoration: none;
+    }
+
+nav ul {
+    background-color: gray;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+
+}
+
+    nav ul li:hover {
+        background-color: darkgray;
+    }
+
+    nav ul li {
+        display: inline-block;
+    }
+
+        nav ul li a {
+            padding: .4em 1em;
+            display: block;
+        }
+
+.navListStyle {
+    font-weight: bold;
+    background-color: darkgray;
+}
+
+#asideStyle {
+    background-color: lightgray;
+    color: blue;
+}
+#contactUsList {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 1.5em;
+    margin-left: 190px;
+    margin-right: 190px
+}
+main section {
+    padding: 2%;
+}
+main section ul li a {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#headerOverlay {
+    background-image: url('../images/pankaj-patel-561360-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: 90px;
+    background-position: 3% center;
+    padding: 2em;
+}
+header h1, header p {
+    margin: 7px 0 7px 150px;
+}
+header h1 {
+    text-align: left;
+    letter-spacing: 0.1em;
+    
+}
+
+header {
+    border-radius: 5px;
+}
+
+nav ul {
+    min-height: 52px;
+    /*background-image: url(../images/border_wave.png);*/
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: 200px;
 }
 
 /*#endregion */

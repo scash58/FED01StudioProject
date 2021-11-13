@@ -70,6 +70,7 @@
     <Content Include="about.html" />
     <Content Include="contact.html" />
     <Content Include="css\custom.css" />
+    <Content Include="images\pankaj-patel-561360-unsplash.jpg" />
     <Content Include="team.html" />
     <Content Include="index.html" />
     <Content Include="Web.config" />
@@ -87,7 +88,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="images\" />
     <Folder Include="js\" />
   </ItemGroup>
   <PropertyGroup>
