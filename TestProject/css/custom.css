@@ -1,4 +1,15 @@
-﻿/*#region Index_Styling */
+﻿/*#region Import */
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Source+Code+Pro&display=swap');
+/*
+font-family: 'Architects Daughter', cursive;
+font-family: 'Source Code Pro', monospace;
+*/
+
+
+/*#endregion */
+
+/*#region Index_Styling */
 
 /*
     This is an external stylesheet.
