@@ -1,16 +1,13 @@
 ﻿/*#region Import */
 
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Source+Code+Pro&display=swap');
+
 /*
 font-family: 'Architects Daughter', cursive;
 font-family: 'Source Code Pro', monospace;
 */
-
-
 /*#endregion */
-
 /*#region Index_Styling */
-
 /*
     This is an external stylesheet.
     Designed for mazimum reuse throught the site, linked in the <head> of the HTML pages.
@@ -168,6 +165,24 @@ nav ul {
     background-repeat: repeat-x;
     background-position: bottom;
     background-size: 200px;
+}
+
+/*#endregion */
+
+/*#region Module7 */
+
+header h1 {
+    font: 2.2em 'Architects Daughter', cursive;
+}
+
+header p {
+    font-family: 'Source Code Pro', monospace;
+    font-style: italic;
+}
+
+main h1 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.75em;
 }
 
 /*#endregion */
