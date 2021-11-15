@@ -19,7 +19,7 @@ body {
 header {
     background-color: lightgray;
     font-weight: bold;
-    color: black;
+    color: steelblue;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     border-left: 2px solid black;
@@ -27,7 +27,7 @@ header {
 }
 
 main {
-    background-color: grey;
+    background-color: rgba(190, 190, 190, .6);
 }
 
 h1 {
@@ -41,11 +41,11 @@ h2 {
 }
 
 header h1 {
-    color: black;
+    color: steelblue;
 }
 
 footer {
-    background-color: gray;
+    background-color: rgba(190, 190, 190, .6);
     font-style: italic;
     font-size: 20px;
     border-top: 2px solid black;
@@ -84,7 +84,7 @@ a {
 
 nav a {
     font-weight: bold;
-    color: black;
+    color: white;
 }
     nav a:hover, nav a:active, nav a:focus {
         text-decoration: none;
@@ -110,6 +110,7 @@ nav ul {
         nav ul li a {
             padding: .4em 1em;
             display: block;
+            font-size: 20px;
         }
 
 .navListStyle {
@@ -161,7 +162,7 @@ header {
 
 nav ul {
     min-height: 52px;
-    /*background-image: url(../images/border_wave.png);*/
+    background-image: url(../images/jason-leung-D4YrzSwyIEc-unsplash.jpg);
     background-repeat: repeat-x;
     background-position: bottom;
     background-size: 200px;
@@ -183,6 +184,48 @@ header p {
 main h1 {
     font-family: 'Source Code Pro', monospace;
     font-size: 1.75em;
+}
+
+header {
+    background-image: url(../images/henry-be-lc7xcWebECc-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body {
+    background: url(../images/bookFav.jpg) no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+div.galleryItem {
+    margin: 5px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    width: 350px;
+}
+
+    div.galleryItem:hover {
+        border: 1px solid lightsalmon;
+    }
+
+    div.galleryItem img {
+        width: 100%;
+        height: auto;
+    }
+
+    div.galleryItem a:hover {
+        background-color: lightsalmon;
+    }
+    a.trim {
+        max-height: 180px;
+        max-width: 235px;
+        overflow: hidden;
+    }
+
+#imageGallery {
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
 }
 
 /*#endregion */

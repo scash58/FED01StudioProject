@@ -68,9 +68,20 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="about.html" />
+    <Content Include="classes.html" />
+    <Content Include="favicon.ico" />
+    <Content Include="images\bookFav.jpg" />
     <Content Include="contact.html" />
     <Content Include="css\custom.css" />
+    <Content Include="images\booksNavBar.jpg" />
+    <Content Include="images\ed-robertson-eeSdJfLfx1A-unsplash.jpg" />
+    <Content Include="images\goran-ivos-246271-unsplash.jpg" />
+    <Content Include="images\greg-rosenke-0zkJ1EsH9dY-unsplash.jpg" />
+    <Content Include="images\henry-be-lc7xcWebECc-unsplash.jpg" />
+    <Content Include="images\jason-leung-D4YrzSwyIEc-unsplash.jpg" />
+    <Content Include="images\joyce-mccown-CoykYnIunUg-unsplash.jpg" />
     <Content Include="images\pankaj-patel-561360-unsplash.jpg" />
+    <Content Include="images\steven-lelham-atSaEOeE8Nk-unsplash.jpg" />
     <Content Include="team.html" />
     <Content Include="index.html" />
     <Content Include="Web.config" />
