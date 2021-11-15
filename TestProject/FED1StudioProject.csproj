@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="about.html" />
     <Content Include="classes.html" />
+    <Content Include="css\fontawesome.css" />
     <Content Include="favicon.ico" />
     <Content Include="images\bookFav.jpg" />
     <Content Include="contact.html" />
