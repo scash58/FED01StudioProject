@@ -14,6 +14,7 @@ font-family: 'Source Code Pro', monospace;
 */
 body {
     background-color: darkgray;
+    margin: auto;
 }
 
 header {
@@ -33,6 +34,7 @@ main {
 h1 {
     color: black;
     font-size: 26px;
+    text-align: center;
 }
 
 h2 {
@@ -92,11 +94,10 @@ nav a {
 
 nav ul {
     background-color: gray;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
-
+    border-top: 2px solid steelblue;
+    border-bottom: 2px solid steelblue;
+    border-left: 2px solid steelblue;
+    border-right: 2px solid steelblue;
 }
 
     nav ul li:hover {
@@ -146,6 +147,7 @@ main section ul li a {
     background-size: 90px;
     background-position: 3% center;
     padding: 2em;
+    border: 2px solid steelblue;
 }
 header h1, header p {
     margin: 7px 0 7px 150px;
@@ -194,14 +196,14 @@ header {
 body {
     background: url(../images/bookFav.jpg) no-repeat center center fixed;
     background-size: cover;
-    margin: 0;
+    margin: auto;
 }
 
 div.galleryItem {
     margin: 5px;
     border: 1px solid #ccc;
     display: inline-block;
-    width: 350px;
+    width: 235px;
 }
 
     div.galleryItem:hover {
@@ -209,8 +211,9 @@ div.galleryItem {
     }
 
     div.galleryItem img {
-        width: 100%;
-        height: auto;
+        width: 235px;
+        height: 180px;
+        
     }
 
     div.galleryItem a:hover {
@@ -227,5 +230,21 @@ div.galleryItem {
     width: 90%;
     text-align: center;
 }
+
+/*#endregion */
+/*#region Box Model */
+/* Adding padding for header, main body, and footer*/
+.mainWrapper {
+    padding: 1%;
+}
+
+.asideWrapper {
+    padding: 1%;
+}
+/*Padding for footer*/
+footer {
+    padding: 1%;
+}
+
 
 /*#endregion */
