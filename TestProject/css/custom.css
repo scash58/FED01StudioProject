@@ -75,6 +75,7 @@ ul.blocklist {
             color: lightblue;
         }
 a {
+    color: steelblue;
     font-weight: bold;
     text-decoration: none;
 }
@@ -168,6 +169,7 @@ nav ul {
     background-repeat: repeat-x;
     background-position: bottom;
     background-size: 200px;
+    margin:0;
 }
 
 /*#endregion */
@@ -231,6 +233,38 @@ div.galleryItem {
     text-align: center;
 }
 
+div.departGalleryItem {
+    margin: 5px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    width: 235px;
+    float: left;
+}
+    div.departGalleryItem:hover {
+    border: 1px solid lightsalmon;
+}
+
+div.departGalleryItem img {
+    width: 235px;
+    height: 180px;
+}
+
+div.departGalleryItem a:hover {
+    background-color: lightsalmon;
+}
+
+p.departGalleryItem {
+    height: 210px;
+}
+
+a.trim {
+    max-height: 180px;
+    max-width: 235px;
+    overflow: hidden;
+}
+
+
+
 /*#endregion */
 /*#region Box Model */
 /* Adding padding for header, main body, and footer*/
@@ -245,6 +279,30 @@ div.galleryItem {
 footer {
     padding: 1%;
 }
+
+#cssLeftColumn {
+    width: 75%;
+    float: left;
+    box-sizing: border-box;
+    border-right: 1px solid;
+}
+
+#cssRightColumn {
+    width: 25%;
+    float: right;
+}
+
+aside h2{
+    margin-top: 0;
+    padding: 2%;
+}
+
+
+.clear {
+    clear: both;
+}
+
+
 
 
 /*#endregion */
