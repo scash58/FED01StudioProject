@@ -306,3 +306,64 @@ aside h2{
 
 
 /*#endregion */
+
+/*#region Module 10 Tables */
+
+/*reference powerpoint for description of table tags*/
+
+/*
+    <table>
+    <tr> //table row    
+        <th> //table head
+            //Column header
+        </th>
+    <tr>
+    <tr>
+        <td> //table "definition"
+            //field/cell content
+        </td>
+    <tr>
+
+    Every line is in a TR, including the column headers
+    optionally, we can wrap the column header row in a <thead> and the body in a <tbody>. These are not required, but help for readability. We can also use a <tfoot> to add closing information about the table, such as a date, source, or author.
+*/
+
+table, tr, td, th { /*table, table rows, table "definition", table head.*/
+    border: 1px solid black;
+    border-collapse: collapse; /*avoids duplicate adjacent borders inside table.*/
+}
+
+table {
+    margin: auto; /*note, text-align: center would just center content IN CELLS. Margin: auto centers the whole table*/
+    margin-bottom: 2em;
+}
+
+th { /*table head*/
+    font-weight: bold;
+    text-align: center;
+}
+
+td, th {
+    padding: .3em;
+    width: 200px;
+}
+
+thead {
+    background-color: lightsteelblue;
+}
+
+tfoot {
+    background-color: lightsteelblue;
+}
+
+    tfoot tr, tfoot td {
+        border: 0;
+        /*border-bottom: 0;*/
+    }
+
+tbody tr:nth-child(even) {
+    background-color: burlywood; /*apply alternating background to each row*/
+}
+
+
+/*#endregion */
