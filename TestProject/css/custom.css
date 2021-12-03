@@ -110,7 +110,7 @@ nav ul {
     }
 
         nav ul li a {
-            padding: .4em 1em;
+            padding: .7em 1em;
             display: block;
             font-size: 20px;
         }
@@ -277,7 +277,10 @@ a.trim {
 }
 /*Padding for footer*/
 footer {
-    padding: 1%;
+    padding: 3%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 #cssLeftColumn {
@@ -349,11 +352,11 @@ td, th {
 }
 
 thead {
-    background-color: lightsteelblue;
+    background-color: steelblue;
 }
 
 tfoot {
-    background-color: lightsteelblue;
+    background-color: steelblue;
 }
 
     tfoot tr, tfoot td {
@@ -362,7 +365,7 @@ tfoot {
     }
 
 tbody tr:nth-child(even) {
-    background-color: burlywood; /*apply alternating background to each row*/
+    background-color: steelblue; /*apply alternating background to each row*/
 }
 
 
