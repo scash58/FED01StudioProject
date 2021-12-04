@@ -280,7 +280,7 @@ footer {
     padding: 3%;
     left: 0;
     bottom: 0;
-    width: 100%;
+    /*width: 100%;*/
 }
 
 #cssLeftColumn {
@@ -368,5 +368,45 @@ tbody tr:nth-child(even) {
     background-color: steelblue; /*apply alternating background to each row*/
 }
 
+
+/*#endregion */
+
+/*#region index.html formatting */
+
+#indexPicLeftColumn{
+    width: 25%;
+    float: left;
+    width: 235px;
+    height: 180px
+}
+
+#indexRightColumn{
+    width: 75%;
+    float: right;
+    height: 180px;
+}
+
+/**{
+outline: 1px solid red !important;
+}*/
+
+#indexRightPic {
+    float: right;
+    height: 350px;
+    width: 50%;
+    margin-left: 20px;
+}
+
+#indexLeftPic {
+    float: left;
+    height: 350px;
+    width: 50%;
+    margin-right: 20px;
+}
+
+.indexWrapper{
+    height: 350px;
+    padding: 1%;
+}
 
 /*#endregion */
