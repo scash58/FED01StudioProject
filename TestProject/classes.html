@@ -7,6 +7,9 @@
     <meta name="keywords" content="learning, html, website basics, FED1" />
     <meta name="author" content="Scott Cashion" />
 
+    <!-- Bootstrap Theme -->
+    <link href="css/bootstrap-flatly-theme.min.css" rel="stylesheet" />
+
     <!--<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">-->
 
@@ -458,6 +461,41 @@
     </main>
 
     <footer>&copy; 2021 Scott Cashion</footer>
+
+    <!-- Admin Button -->
+    <div id="subject-btn" class="button" onclick="openSubjectNav()">
+        <span class="vertical-text">SUBJECTS</span>
+    </div>
+
+    <!-- Admin Nav -->
+    <div id="subject-nav" class="sidenav">
+        <a href="javascript:void(0)" class="close-btn" onclick="closeSubjectNav()">&times;</a>
+        <a href="#beginningLit">Beginning Literature</a>
+        <a href="#advancedLit">Advanced Literature</a>
+        <a href="#weightTrain">Weight Training</a>
+        <a href="#phyEd">Physical Education</a>
+        <a href="#beginningPro">Beginning Programming</a>
+        <a href="#advancedPro">Advanced Programming</a>
+    </div>
+
+    <!-- Toggle Admin Menu -->
+    <script type="text/javascript">
+        function openSubjectNav() {
+            document.getElementById('subject-btn').style.display = "none";
+            document.getElementById('subject-nav').style.width = "250px";
+        }
+
+        function closeSubjectNav() {
+            document.getElementById('subject-btn').style.display = "block";
+            document.getElementById('subject-nav').style.width = "0";
+        }
+    </script>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Bootstrap 3.3.7 minified JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 
 
 </body>
