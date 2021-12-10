@@ -295,6 +295,17 @@ footer {
     float: right;
 }
 
+#asideHeader {
+    background-color: teal;
+    color: darkorange;
+}
+
+header {
+    background-image: url(../images/henry-be-lc7xcWebECc-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 aside h2{
     margin-top: 0;
     padding: 2%;
@@ -472,6 +483,38 @@ outline: 1px solid red !important;
     color: red;
     font-style: italic;
     font-weight: bolder;
+}
+
+/*#endregion */
+
+/*#region lightbox */
+
+.thumb {
+    cursor: pointer;
+}
+
+#lightbox-container {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .8);
+    text-align: center;
+    padding-top: 65px;
+    display: none;
+}
+
+    #lightbox-container p {
+        color: #fff;
+    }
+
+#lightbox-content img {
+    position: center;
+    height: 50%;
+    width: 50%;
+    border: 10px solid gray;
+    margin: auto;
 }
 
 /*#endregion */

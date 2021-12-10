@@ -6,25 +6,15 @@
     <meta name="description" content="Information about our teams and employees" />
     <meta name="keywords" content="learning, html, website basics, FED1" />
     <meta name="author" content="Scott Cashion" />
-    
+
+    <!-- Bootstrap Theme -->
+    <link href="css/bootstrap-flatly-theme.min.css" rel="stylesheet" />
+
     <link href="css/custom.css" rel="stylesheet" />
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
-    <style>
-        #asideHeader {
-            background-color: teal;
-            color: darkorange;
-        }
-
-        header {
-            background-image: url(../images/henry-be-lc7xcWebECc-unsplash.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-
-    </style>
 
 </head>
 <body>
@@ -52,13 +42,12 @@
     </nav>
     <main>
 
-
         <section class="mainWrapper" id="cssLeftColumn">
             <article>
                 <h1>Leadership</h1>
                 <div class="galleryRow">
                     <div class="departGalleryItem">
-                        <img src="images/christopher-campbell-rDEOVtE7vOs-unsplash.jpg" />
+                        <img src="images/christopher-campbell-rDEOVtE7vOs-unsplash.jpg" class="img-responsive thumb" />
                         <div class="description">Julie Cooper</div>
                     </div>
                     <p class="departGalleryItem">
@@ -68,21 +57,21 @@
 
                 <div class="galleryRow">
                     <div class="departGalleryItem">
-                        <img src="images/christopher-campbell-rDEOVtE7vOs-unsplash.jpg" />
-                        <div class="description">Julie Cooper</div>
+                        <img src="images/jonas-kakaroto-mjRwhvqEC0U-unsplash.jpg" class="img-responsive thumb" />
+                        <div class="description">Jonus Campbell</div>
                     </div>
                     <p class="departGalleryItem">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in rhoncus dolor, mollis maximus augue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc et turpis vitae erat imperdiet faucibus. Nullam ultricies aliquet mauris vel tincidunt. Nunc gravida, est vitae rhoncus fringilla, erat nisl condimentum tellus, sed porta arcu orci eu metus. Fusce non est risus. Cras malesuada pharetra orci in scelerisque. Cras malesuada imperdiet lectus commodo commodo.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in rhoncus dolor, mollis maximus augue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc et turpis vitae erat imperdiet faucibus. Nullam ultricies aliquet mauris vel tincidunt. Nunc gravida, est vitae rhoncus fringilla, erat nisl condimentum tellus, sed porta arcu orci eu metus. Fusce non est risus. Cras malesuada pharetra orci in scelerisque. Cras malesuada imperdiet lectus commodo commodo.
                     </p>
                 </div>
 
                 <div class="galleryRow">
                     <div class="departGalleryItem">
-                        <img src="images/christopher-campbell-rDEOVtE7vOs-unsplash.jpg" />
-                        <div class="description">Julie Cooper</div>
+                        <img src="images/sergio-de-paula-c_GmwfHBDzk-unsplash.jpg" class="img-responsive thumb" />
+                        <div class="description">Steven McCown</div>
                     </div>
                     <p class="departGalleryItem">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in rhoncus dolor, mollis maximus augue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc et turpis vitae erat imperdiet faucibus. Nullam ultricies aliquet mauris vel tincidunt. Nunc gravida, est vitae rhoncus fringilla, erat nisl condimentum tellus, sed porta arcu orci eu metus. Fusce non est risus. Cras malesuada pharetra orci in scelerisque. Cras malesuada imperdiet lectus commodo commodo.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in rhoncus dolor, mollis maximus augue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc et turpis vitae erat imperdiet faucibus. Nullam ultricies aliquet mauris vel tincidunt. Nunc gravida, est vitae rhoncus fringilla, erat nisl condimentum tellus, sed porta arcu orci eu metus. Fusce non est risus. Cras malesuada pharetra orci in scelerisque. Cras malesuada imperdiet lectus commodo commodo.
                     </p>
                 </div>
 
@@ -110,8 +99,35 @@
         </aside>
         <div class="clear"></div>
     </main>
+
+    <!-- Lightbox Container -->
+    <!-- Dark background that covers the screen -->
+    <div id="lightbox-container">
+
+        <p>
+            Click anywhere to close
+        </p>
+
+        <!-- Lightbox Content -->
+        <!-- Container for our images -->
+        <div id="lightbox-content">
+            <!-- <img> tag will be inserted her when a thumbnail is clicked -->
+        </div>
+
+    </div>
+
     <footer>
         &copy; 2021 Scott Cashion
     </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Bootstrap 3.3.7 minified JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    
+    <!-- Custom jQuery Script -->
+    <script src="js/jquerycode.js"></script>
+
 </body>
 </html>

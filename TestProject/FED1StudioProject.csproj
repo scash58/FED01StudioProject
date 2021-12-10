@@ -67,6 +67,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\bootstrap-flatly-theme.css" />
+    <Content Include="css\bootstrap-flatly-theme.min.css" />
     <Content Include="images\christopher-campbell-rDEOVtE7vOs-unsplash.jpg" />
     <Content Include="images\HanzAndFranz.jpg" />
     <Content Include="images\jonas-kakaroto-mjRwhvqEC0U-unsplash.jpg" />
@@ -87,6 +89,9 @@
     <Content Include="images\joyce-mccown-CoykYnIunUg-unsplash.jpg" />
     <Content Include="images\pankaj-patel-561360-unsplash.jpg" />
     <Content Include="images\steven-lelham-atSaEOeE8Nk-unsplash.jpg" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\jquerycode.js" />
     <Content Include="team.html" />
     <Content Include="team_departments\administration.html" />
     <Content Include="team_departments\instructors.html" />
@@ -105,9 +110,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="js\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
