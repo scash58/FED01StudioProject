@@ -11,6 +11,9 @@
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
 
+    <!-- Bootstrap Theme -->
+    <!-- <link href="css/bootstrap-flatly-theme.min.css" rel="stylesheet" />-->
+
     <link href="css/fontawesome.css" rel="stylesheet" />
 
     <link href="css/custom.css" rel="stylesheet" />
@@ -27,6 +30,15 @@
         </div>
     </header>
     <nav>
+
+        <!-- Hamburger Button -->
+        <a href="javascript:void(0)" class="pull-right" onclick="toggleNav()" id="menu-btn">
+            &#9776;
+        </a>
+        <!-- javascript:void(0) can be used to prevent an <a> tage from sending a request & reloading
+        the page, but it still allows the element to be clickable like an <a> tag would
+        &#9776; produces a simple hamburger button -->
+
         <ul>
             <li class="active">
                 <a href="index.html">Home</a>
@@ -141,6 +153,24 @@
 
     <!-- Custom jQuery Script -->
     <script src="js/jquerycode.js"></script>
+
+    <!-- Toggle Hamburger -->
+    <script>
+        function toggleNav() {
+
+            let navList = document.getElementById('nav-list');
+            navList.classList.toggle('expanded');
+
+            let btnMenu = document.getElementById('menu-btn');
+            if (navList.classList.contains('expanded')) {
+                btnMenu.innerHTML = "&times;";
+            }
+            else {
+                btnMenu.innerHTML = "&#9776;";
+            }
+
+        }
+    </script>
 
 </body>
 </html>

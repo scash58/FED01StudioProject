@@ -28,6 +28,22 @@ $(function () {
 
 });
 
+//Toggle Hamburger
+function toggleNav() {
+
+    let navList = document.getElementById('nav-list');
+    navList.classList.toggle('expanded');
+
+    let btnMenu = document.getElementById('menu-btn');
+    if (navList.classList.contains('expanded')) {
+        btnMenu.innerHTML = "&times;";
+    }
+    else {
+        btnMenu.innerHTML = "&#9776;";
+    }
+
+}
+
 //Create a new Date object to display our copyright info
 let currentDate = new Date(); //Empty constructor -- for Date objects, this defaults to today's date
 
